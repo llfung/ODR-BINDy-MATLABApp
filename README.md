@@ -12,7 +12,13 @@ Once installed, run the app by calling
 ```
 sh run_ODR_BINDy_3D.sh <MATLAB_RUNTIME_FOLDER>
 ```
-where `<MATLAB_RUNTIME_FOLDER>` is the path to the folder where the MATLAB RunTime is .
+where `<MATLAB_RUNTIME_FOLDER>` is the path to the folder where the MATLAB RunTime is.
+
+For example, the RunTime may be installed in a folder named `R2024b` in the parent directory, in which case, run
+```
+sh run_ODR_BINDy_3D.sh ../R2024b
+```
+
 ## Data loading
 You can load whatever time-series data into the app. The application currently only works for 3 Dimensional System that is equi-temporally sampled. 
 
