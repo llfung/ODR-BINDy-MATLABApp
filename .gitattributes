@@ -17,3 +17,4 @@
 *.jpg -diff -merge
 *.png -diff -merge
 *.png -diff -merge
+*.install -diff -merge
